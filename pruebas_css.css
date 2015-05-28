@@ -1,0 +1,122 @@
+nav{
+
+		height: 70px;
+		background-color: #7D83B0;
+}
+
+
+body{
+
+	font-family: verdana;
+	background-color: #D4A36A; 
+
+}
+
+section{
+
+	background-color: #7D83B0;
+	text-align: center;
+	float: right;
+	border: solid 2px black;
+	width: 80%;
+	height: 200px;
+	margin-top: 30px; 
+	padding-top: 100px;
+
+
+}
+
+
+#aside{
+
+	text-align: center;
+}
+
+#banner{
+
+		text-align: left;
+
+}
+
+#nav4{
+
+		background-color: #080E3A ; 
+
+}
+
+.bot_menu{
+
+		width: 24%;
+		display: inline-block;
+		text-align: center;
+		margin-top: 25px;
+		margin-left: 5px;
+		background-color: #D4B76A;
+
+}
+
+.bot_menu:hover{
+
+		background-color: #16a765 !important;
+		transform: skew(45deg);
+
+}
+
+@-webkit-keyframes mianimacion {
+    from {
+    	opacity: 0;
+    	bottom: -45px;
+		left: 0;
+    }
+    to {
+    	opacity: 1;
+    	bottom: -150px;
+  		left: 185px;
+    }
+} 
+
+button{
+	width: 100%;
+	float:left;
+	height: 60px;
+	background-color: #16a765;
+	border-radius: 10px;
+	border:solid 1px black;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+/**/
+#contenedor{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+#animacion{
+	text-align: center;
+	background-color: rgba(0,0,0,0.1);
+	position: absolute;
+	bottom: -45px;
+	left: 0;
+	font-size: 40px;
+	color: red;
+	display: block;
+	width: 300px; 
+	opacity: 0;
+	-webkit-animation-name: mianimacion;
+    -webkit-animation-duration: 4s;
+}
+
+aside{
+
+	border: solid 2px black;
+	float: left;
+	height: 1000px;
+	width: 15%;
+
+
+
+}
+
